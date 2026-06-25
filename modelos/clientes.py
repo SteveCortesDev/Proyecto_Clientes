@@ -7,7 +7,7 @@ class ClienteBase(BaseModel):
     email: str
     descripcion: str
 
-class ClienteCreate(ClienteBase):
+class ClienteCrear(ClienteBase):
     pass
 
 class ClienteEditar(BaseModel):
