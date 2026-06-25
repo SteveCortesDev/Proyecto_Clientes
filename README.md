@@ -5,9 +5,6 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![GitHub last commit](https://img.shields.io/github/last-commit/SteveCortesDev/Proyecto_Clientes)
-![GitHub repo size](https://img.shields.io/github/repo-size/SteveCortesDev/Proyecto_Clientes)
-![GitHub stars](https://img.shields.io/github/stars/SteveCortesDev/Proyecto_Clientes?style=social)
 
 > **API RESTful** para gestión de clientes, facturas y transacciones, construida con **FastAPI** y **SQLModel**.
 
@@ -26,30 +23,30 @@
 - ✅ **Código modular** con routers y modelos separados
 - ✅ **Control de versiones** con Git
 
-📁 PROYECTO_CLIENTES/
-├── 📄 .gitignore                 # Archivos ignorados por Git
-├── 📄 requirements.txt           # Dependencias del proyecto
-├── 📄 README.md                  # Documentación principal
-├── 📄 main.py                    # Punto de entrada de la API
-│
-├── 📁 .mi_env/                   # Entorno virtual (ignorado)
-│
-└── 📁 app/
+📁 PROYECTO_CLIENTES/<br>
+├── 📄 .gitignore                 # Archivos ignorados por Git<br>
+├── 📄 requirements.txt           # Dependencias del proyecto<br>
+├── 📄 README.md                  # Documentación principal<br>
+├── 📄 main.py                    # Punto de entrada de la API<br>
+│<br>
+├── 📁 .mi_env/                   # Entorno virtual (ignorado)<br>
+│<br>
+└── 📁 app/<br>
     ├── 📄 __init__.py
-    ├── 📄 main.py                # Configuración principal de FastAPI
-    ├── 📄 database.py            # Conexión a base de datos
-    ├── 📄 listas.py              # Listas globales en memoria
-    │
-    ├── 📁 modelos/
+    ├── 📄 main.py                # Configuración principal de FastAPI<br>
+    ├── 📄 database.py            # Conexión a base de datos<br>
+    ├── 📄 listas.py              # Listas globales en memoria<br>
+    │<br>
+    ├── 📁 modelos/<br>
     │   ├── 📄 __init__.py
-    │   ├── 📄 clientes.py        # Modelo de Cliente
-    │   ├── 📄 facturas.py        # Modelo de Factura
-    │   └── 📄 transacciones.py   # Modelo de Transacción
-    │
-    └── 📁 enrutadores/
-        ├── 📄 __init__.py
-        ├── 📄 clientes.py        # Endpoints de Clientes
-        ├── 📄 facturas.py        # Endpoints de Facturas
+    │   ├── 📄 clientes.py        # Modelo de Cliente<br>
+    │   ├── 📄 facturas.py        # Modelo de Factura<br>
+    │   └── 📄 transacciones.py   # Modelo de Transacción<br>
+    │<br>
+    └── 📁 enrutadores/<br>
+        ├── 📄 __init__.py<br>
+        ├── 📄 clientes.py        # Endpoints de Clientes<br>
+        ├── 📄 facturas.py        # Endpoints de Facturas<br>
         └── 📄 transacciones.py   # Endpoints de Transacciones <br>
  👨‍💻 Autor
 Steve Cortes Dev
